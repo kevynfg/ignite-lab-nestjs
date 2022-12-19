@@ -19,12 +19,13 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
     "paths": {
       "@/*": [
         "./src/*",
         "./test*",
         "./prisma"
       ]
-    },
+    }
   }
 }
